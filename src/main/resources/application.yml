@@ -1,0 +1,15 @@
+spring:
+ r2dbc:
+  url: "r2dbc:postgresql://localhost:5432/coursesshopreactive"
+  username: demo
+  password: demo
+ data:
+  redis:
+   host: localhost
+   port: 6379
+
+server:
+  port: 8080
+  error:
+   include-message: always
+
